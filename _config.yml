@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 噜噜卢的游戏日志
+email: raymondlu1105#qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    在游戏圈里摸爬滚打马上就要进入第九个年头了，参与过曾经轰动一时的公司项目，也做过无人问津的独立游戏。
+    刚入行的时候，曾受某前辈点拨：“我们是制作游戏，而不是研发游戏技术”，这句话深深的影响了我后面的学习和工作方式。    
+    所以我不会在这里记录太多的底层技术，也不会解释各种公式，那是引擎程序员和数学家的专长。
+    在这里我主要写一些泛泛的事，比如某个工作流程，某种代码架构，再或者某些解决方案。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://raymondlu.github.io/" # the base hostname & protocol for your site
+github_username:  raymondlu
 
 # Build settings
 markdown: kramdown
