@@ -1,19 +1,17 @@
 # Site settings
-title: Another Blog
-url: "http://raymondlu.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
+title: Home
+url: "http://raymondlu.github.io/"
+baseurl: ""
+timezone: Asia/Shanghai
 description: >
-  One or more sentences introducing this blog.
+  Cocos2dx,Unity,iOS/Android,mobile game,Lua/C++/python,Game development
 
 # Your information
 github_username: raymondlu
 email: raymondlu1105@qq.com
 author: Raymond Lu
 avatar: "//www.gravatar.com/avatar/886a2cc8b018565483f9a08b511b81ee?d=mm&s=135"
-profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
+profile: 尘世间迷途小程序员，在游戏圈里兜兜转转，空长了年纪，至今未有什么建树。
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
