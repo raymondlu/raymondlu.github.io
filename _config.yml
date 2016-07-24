@@ -1,21 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: 噜噜卢的游戏日志
-email: raymondlu1105#qq.com
-description: > # this means to ignore newlines until "baseurl:"
-    在游戏圈里摸爬滚打马上就要进入第九个年头了，参与过曾经轰动一时的公司项目，也做过无人问津的独立游戏。
-    刚入行的时候，曾受某前辈点拨：“我们是制作游戏，而不是研发游戏技术”，这句话深深的影响了我后面的学习和工作方式。    
-    所以我不会在这里记录太多的底层技术，也不会解释各种公式，那是引擎程序员和数学家的专长。
-    在这里我主要写一些泛泛的事，比如某个工作流程，某种代码架构，再或者某些解决方案。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://raymondlu.github.io/" # the base hostname & protocol for your site
-github_username:  raymondlu
+title: Another Blog
+url: "http://raymondlu.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: raymondlu1105@qq.com
+author: Raymond Lu
+avatar: "//www.gravatar.com/avatar/886a2cc8b018565483f9a08b511b81ee?d=mm&s=135"
+profile: One sentence introducing yourself.
+#twitter_username: twitter_username
+#github_username:  github_username
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+duoshuo_shortname: raymondlu  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
 
 # Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
