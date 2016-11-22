@@ -18,6 +18,7 @@ const BlendFunc BlendFunc::ADDITIVE = {GL_SRC_ALPHA, GL_ONE};
 Photoshop里的图层叠加混合稍微复杂一点，计算公式：
 
 &emsp;&emsp;基色 < = 128：结果色 = 混合色 * 基色 / 128；
+
 &emsp;&emsp;基色 > 128：结果色 = 255 - （255 - 混合色）* (255 - 基色) / 128
 
 相当于是根据混合目标颜色的每个分量值来选择不同公式计算得到最终的颜色值分量。
