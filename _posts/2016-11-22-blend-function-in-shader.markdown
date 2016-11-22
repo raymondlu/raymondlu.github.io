@@ -15,11 +15,9 @@ published: true
 const BlendFunc BlendFunc::ADDITIVE = {GL_SRC_ALPHA, GL_ONE};
 ~~~
 
-Photoshop里的图层叠加混合稍微复杂一点，计算公式：
-
-&emsp;&emsp;基色 < = 128：结果色 = 混合色 * 基色 / 128；
-
-&emsp;&emsp;基色 > 128：结果色 = 255 - （255 - 混合色）* (255 - 基色) / 128
+Photoshop里的图层叠加混合稍微复杂一点，计算公式：<br>
+&emsp;&emsp;基色 < = 128：结果色 = 混合色 * 基色 / 128；<br>
+&emsp;&emsp;基色 > 128：结果色 = 255 - （255 - 混合色）* (255 - 基色) / 128<br>
 
 相当于是根据混合目标颜色的每个分量值来选择不同公式计算得到最终的颜色值分量。
 为此写了一个特定的fragment shader来实现Photosh里的这个叠加效果，其中background_texture为混合的目标纹理。
