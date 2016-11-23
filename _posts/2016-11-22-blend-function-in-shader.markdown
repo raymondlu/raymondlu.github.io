@@ -2,7 +2,7 @@
 layout: post
 title:  "用shader实现Photoshop中图层叠加混合模式效果"
 date:   2016-11-22 20:35
-categories: jekyll
+categories: 原创
 permalink: /archivers/additive-effect-in-shader
 published: true
 ---

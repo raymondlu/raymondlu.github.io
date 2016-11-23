@@ -2,7 +2,7 @@
 layout: post
 title:  "对于C++11中lambda函数的一点理解（下篇）"
 date:   2016-11-04 21:00
-categories: jekyll
+categories: 原创
 permalink: /archivers/lambda-in-c-plus-plus-2
 published: true
 ---
