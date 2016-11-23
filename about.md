@@ -5,6 +5,4 @@ permalink: /about/
 public: true
 ---
 
-Welcome to this website!
-
-> This website is using Jekyll theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+欢迎访问我的主页，有任何问题和建议可以给我发邮件或者留言。
